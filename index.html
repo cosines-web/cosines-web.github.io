@@ -1,12 +1,14 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta charset="UTF-8">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<title>CoSINES</title>
 	</head>
 	<body>
-		<nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+		<nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark shadow">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<a class="navbar-brand" href="#top">CoSINES</a>
@@ -29,7 +31,8 @@
 				</div>
 			</div>
 		</nav>
-		<a id="top"></a>
+		<a id="top"></a>=
+		<div class="page-container shadow">
 		<div class="container-fluid viewport">
 			<div class="row" style="height: 40%"></div>
 			<div class="row justify-content-center">
@@ -37,6 +40,7 @@
 					<h1>
 						CoSINES
 					</h1>
+					<hr>
 					<h3>
 						Computational Statistical Inference for Engineering and Security
 					</h3>
@@ -48,12 +52,11 @@
 			<div class="row">
 				<div class="col-md-12">
 					<h2>About CoSINES</h2>
+					<hr>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-2">
-				</div>
-				<div class="col-md-8">
+				<div class="col-md-12">
 					
 					<p style="font-size: 1.2em">
 						The CoSInES project will bring together a world class team of researchers from Universities of Warwick, Bristol, Lancaster, Oxford and the Alan Turing Institute to tackle fundamental challenges in Computational Statistics and key applications from Engineering and Security. The project will run from 1st October 2018 till 30th September 2023.
@@ -61,9 +64,10 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-2">
-					TODO: IMAGE
+				<div class="col-md-6 center">
+					<div style="width: 300px; height: 200px; background-color: red; margin: auto">
+						<h3>Placeholder</h3>
+					</div>
 				</div>
 				<div class="col-md-6">
 					<p>
@@ -72,53 +76,131 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-6">
+				<div class="col-md-8">
 					<p>
 						While we will create generic methodology having widespread application in many areas, we will take motivation and place major emphases on the important emerging areas of <em>Data-centric Engineering</em> and <em>Defence & Security</em>. We will foster a research collaboration with strong synergies between on the one hand, statistical theory, algorithms and methodology; and on the other hand substantive problems of great societal interest within engineering and security.
 						The problems that CoSInES will tackle will be characterised by complex large data sets indexed in space and often continuously in time. New models will require not only spatial components, but also large network and time-series structure often requiring the solutions to (stochastic) differential equations. Inference will require a completely new generation of algorithms likely to require complicated Monte Carlo and deterministic approaches. Algorithms will need to be tailored for particular computer architecture, and will require underpinning theory to show they scale. New theory on computational and statistical robustness of approaches developed will be required to ensure the usefulness of the procedures developed.
 					</p> 
 				</div>
-				<div class="col-md-2">
-					<div style="background-color: red">
-						TODO: IMAGE
-					</div>
+				<div class="col-md-4 center">
+					<img class="shadow" src="img/dce.jpg">
 				</div>
 			</div>
 		</div>
-	</div>
-	<a id="research"></a>
-	<div class="container-fluid viewport">
-		<div class="row">
-			<div class="col-md-12">
-				<h2>Our Research</h2>
+		<a id="research"></a>
+		<div class="container-fluid viewport">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Our Research</h2>
+					<hr>
+				</div>
 			</div>
 		</div>
-	</div>
-	<a id="people"></a>
-	<div class="container-fluid viewport">
-		<div class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-8">
-				<h2>People</h2>
+		<a id="people"></a>
+		<div class="container-fluid viewport">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>People</h2>
+					<hr>
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-md center">
-				<img src="img/roberts.jpg" class="img-fluid">
-				<h4>Professor Gareth Roberts</h4>
+			<div data-eq-group class="row row-eq-height">
+				<div class="col-md-3 center">
+					<a class="feature-link" 
+						href="https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/roberts/">
+						<img src="img/roberts.jpg" class="img-fluid feature-image">
+						<div data-eq-height class="feature-link-title">
+						<h4>Prof. Gareth Roberts</h4>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 center">
+					<a class="feature-link"
+						href="http://www.bristol.ac.uk/maths/people/christophe-andrieu/index.html">
+						<img src="img/andrieu.jpg" class="img-fluid feature-image">
+						<div data-eq-height class="feature-link-title">
+							<h4>Prof. Christophe Andrieu</h4>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 center">
+					<a class="feature-link" href="https://www.stats.ox.ac.uk/~doucet/">
+						<img src="img/doucet.jpg" class="img-fluid feature-image">
+						<div data-eq-height class="feature-link-title">
+							<h4>Prof. Arnaud Doucet</h4>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 center">
+					<a class="feature-link"
+						href="http://www.maths.lancs.ac.uk/~fearnhea/">
+						<img src="img/fearnhead.jpg" class="img-fluid feature-image">
+						<div data-eq-height class="feature-link-title">
+							<h4>Prof. Paul Fearnhead</h4>
+						</div>
+					</a>
+				</div>
 			</div>
-			<div class="col-md center">
-				<img src="img/andrieu.jpg" class="img-fluid">
-				<h4>Andrieu</h4>
+			<div class="spacer"></div>
+			<div data-eq-group class="row row-eq-height">
+
+				<div class="col-md-3 center">
+					<a class="feature-link"
+						href="https://www.imperial.ac.uk/people/m.girolami">
+						<img src="img/girolami.jpg" class="img-fluid feature-image">
+						<div data-eq-height class="feature-link-title">
+							<h4>Prof. Mark Girolami</h4>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 center">
+					<a class="feature-link"
+						href="http://www.stats.ox.ac.uk/~cholmes/">
+						<img src="img/holmes.jpg" class="img-fluid feature-image">
+						<div data-eq-height class="feature-link-title">
+							<h4>Prof. Chris Holmes</h4>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 center">
+					<a class="feature-link"
+						href="https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/johansen/">
+						<img src="img/johansen.jpg" class="img-fluid feature-image">
+						<div data-eq-height class="feature-link-title">
+							<h4>Dr. Adam Johansen</h4>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 center">
+					<a class="feature-link"
+						href="https://nms.kcl.ac.uk/mijatovic/">
+						<img src="img/mijatovic.jpg" class="img-fluid feature-image">
+						<div data-eq-height class="feature-link-title">
+							<h4>Dr. Aleksandar Mijatovic</h4>
+						</div>
+					</a>
+				</div>
 			</div>
-			<div class="col-md center">
-				<img src="img/doucet.jpg" class="img-fluid">
-				<h4>Doucet</h4>
-			</div>
-			<div class="col-md center">
-				<img src="img/fearnhead.jpg" class="img-fluid">
-				<h4>Fearnhead</h4>
+			<div class="spacer"></div>
+			<div data-eq-group class="row row-eq-height">
+				<div class="col-md-3 center">
+					<a class="feature-link"
+						href="http://www.markbriers.co.uk/Mark_Briers/Home.html">
+						<img src="img/briers.jpg" class="img-fluid feature-image">
+						<div data-eq-height class="feature-link-title">
+							<h4>Dr. Mark Briers</h4>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 center">
+					<a class="feature-link"
+						href="https://sites.google.com/view/anthonylee/">
+						<img src="img/lee.jpeg" class="img-fluid feature-image">
+						<div data-eq-height class="feature-link-title">
+							<h4>Dr. Anthony Lee</h4>
+						</div>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -130,5 +212,6 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="nav.js"></script>
+		<script type="text/javascript" src="resize.js"></script>
 	</body>
 </html>

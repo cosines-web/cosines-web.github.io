@@ -16,8 +16,31 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: SourceSans;
+	background-color: #242a30;
 }
 
+.page-container {
+	max-width: 1600px;
+	padding: 0 100 0 100;
+	margin: auto;
+	background-color: white;
+}
+.feature-link {
+	max-width: 220px;
+	color: black;
+}
+.feature-link:hover {
+	filter: brightness(120%);
+	text-decoration: none;
+	color: red;
+}
+.feature-link-title {
+	background-color: rgb(240,240,240);
+	padding: 4px;
+}
+.feature-image {
+	width: 100%;
+}
 .viewport {
     min-height: 100%;
 }
@@ -27,25 +50,14 @@ body {
 	width: 100%;
 }
 
-.panel {
-	height:100vh;
-	background-color: #4b4b4b;
+.spacer {
+	height: 20px;
 }
-.panel-container {
-	height: 100%;
-	padding: 55 10 10 10;
-}
-.panel-content {
-	background-color: white;
-	height: 100%;
-	padding: 10px;
-	border-radius: 5px;
-}
-
 
 h1 {
 	font-size: 6em;
 	font-family: QanelasSoft-ExtraBold;
+	color: #242a30;
 }
 
 h2 {
@@ -55,6 +67,11 @@ h2 {
 h3 {
 	font-size: 2em;
 	font-family: QanelasSoft-ExtraBold;
+}
+
+h4 {
+	font-family: QanelasSoft-UltraLight;
+	font-weight: bold;
 }
 
 #nav {

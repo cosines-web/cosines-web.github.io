@@ -137,3 +137,7 @@ $size: 45px;
 	border-bottom-left-radius: $size * 2;
 	border-bottom-right-radius: $size * 2;
 }
+
+a.header-link {
+	color: rgba(255,255,255,255,.5) !important;
+}

@@ -10,7 +10,7 @@
     font-family: SourceSans;
     src: url("fonts/SourceSansPro-Regular.ttf") format("truetype");
 }
-
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 
 body {
 	padding: 0;
@@ -38,6 +38,7 @@ body {
 .feature-link-title {
 	background-color: rgb(240,240,240);
 	padding: 4px;
+	font-family: 'Titillium Web', sans serif;
 }
 .feature-link-title > hr {
 	border: 0;
@@ -78,8 +79,7 @@ h3 {
 }
 
 h4 {
-	font-family: QanelasSoft-UltraLight;
-	font-weight: bold;
+	font-family: 'Tilium Web', sans serif;
 }
 .research-toggler:hover {
 	cursor: pointer;

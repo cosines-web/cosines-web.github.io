@@ -28,6 +28,7 @@ body {
 .feature-link {
 	max-width: 220px;
 	color: black;
+	cursor: pointer;
 }
 .feature-link:hover {
 	filter: brightness(120%);
@@ -37,6 +38,13 @@ body {
 .feature-link-title {
 	background-color: rgb(240,240,240);
 	padding: 4px;
+}
+.feature-link-title > hr {
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin: 2px;
+
 }
 .feature-image {
 	width: 100%;
@@ -73,6 +81,24 @@ h4 {
 	font-family: QanelasSoft-UltraLight;
 	font-weight: bold;
 }
+.research-toggler:hover {
+	cursor: pointer;
+}
+.research-detail {
+	padding: 10px;
+}
+.rotate{
+    -moz-transition: all 0.25s linear;
+    -webkit-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+
+.rotate.down{
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
 
 #nav {
 	position: absolute;
@@ -102,4 +128,12 @@ h4 {
 .sep {
 	font-size: 0.5em;
 	vertical-align: middle;
+}
+
+$size: 45px;
+.semicircle-bottom {
+	height: $size;
+	width: $size * 2;
+	border-bottom-left-radius: $size * 2;
+	border-bottom-right-radius: $size * 2;
 }

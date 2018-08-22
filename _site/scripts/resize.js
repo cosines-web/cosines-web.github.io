@@ -18,3 +18,13 @@ function total_height() {
 }
 $(eq_height);
 $(window).resize(eq_height);
+
+function do_vcenter() {
+	$('.vcenter').css({
+        'position' : 'absolute',
+        'top' : '50%',
+        'margin-top' : -0.5*$('.vcenter').height()
+    });
+}
+
+//$(do_vcenter);

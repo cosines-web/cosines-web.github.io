@@ -145,3 +145,8 @@ a.header-link {
 .navbar-padding {
 	padding: 35px;
 }
+
+.center-contents {
+  display : flex;
+  align-items : center;
+}

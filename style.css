@@ -158,3 +158,23 @@ h4 {
 	color: rgba(255,255,255,.75);
 	text-decoration: none
 }
+
+.flex-font-large {
+	font-size: 6em;
+}
+
+.flex-font-medium {
+	font-size: 2em;
+}
+
+
+@media screen and (max-width: 1000px){
+    
+	.flex-font-large {
+		font-size: 9vw;
+	}
+
+	.flex-font-medium {
+		font-size: 3vw;
+	}
+}

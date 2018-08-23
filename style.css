@@ -25,6 +25,12 @@ body {
 	margin: auto;
 	background-color: white;
 }
+
+@media screen and (max-width: 1000px){
+    .page-container {
+		padding: 0;
+	}
+}
 .feature-link {
 	max-width: 220px;
 	color: black;
